@@ -1,9 +1,7 @@
-from logging import exception
-from requests.models import parse_url
 import telebot , requests , json
 from telebot.types import Message
 from user_agent import generate_user_agent
-token = "1864786597:AAFNDJNHJLPb-EirEIdbgZ71ZWPxqejM_Fs"
+token = "1961840045:AAHBzCAsj9qpXI37Wm5dg604Ppxr8sx9spQ"
 def ex_id(id):
     result = False
     file = open("id.txt",'r')
